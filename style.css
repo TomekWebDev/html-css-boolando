@@ -1,0 +1,12 @@
+header{
+    background-color: orange;
+}
+
+.card{
+    width: 32%; /* vedere se si puo fare con vw */
+    margin-bottom: 5%;
+}
+
+.card > img{
+    width: 100%;
+}
