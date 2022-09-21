@@ -21,8 +21,16 @@
     align-items: center;
 }
 
+.alignEnd{
+    align-items: flex-end;
+}
+
 .justifyCenter{
     justify-content: center;
+}
+
+.justifyEnd{
+    justify-content: end;
 }
 
 .justifyAround{
