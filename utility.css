@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.width70Container{
+    width: 70%;
+    margin: auto;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.justifyBetween{
+    justify-content: space-between;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.justifyAround{
+    justify-content: space-around;
+}
+
+.flexRow{
+    flex-direction: row;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
+}
