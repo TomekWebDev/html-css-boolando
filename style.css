@@ -1,5 +1,10 @@
 header{
     background-color: orange;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .card{
@@ -9,4 +14,16 @@ header{
 
 .card > img{
     width: 100%;
+}
+
+.tagContainer{
+    left: 0;
+    bottom: 20%;
+}
+
+.favorite{
+    background-color: white;
+    padding: 5%;
+    right: 0;
+    top: 10%;
 }
