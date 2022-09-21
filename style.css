@@ -45,6 +45,16 @@ ul > li{
     width: 100%;
 }
 
+.hoverImg{
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.card:hover .hoverImg{
+    display: block;
+}
+
 .tagContainer{
     left: 0;
     bottom: 20%;
@@ -72,3 +82,18 @@ ul > li{
     padding: 0 2%;
 }
 
+.brandName{
+    font-size: small;
+}
+
+.itemName{
+    font-weight: 800;
+}
+
+.salePrice{
+    color: red;
+}
+
+.retailPrice{
+    text-decoration:line-through;
+}
