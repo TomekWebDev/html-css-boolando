@@ -1,5 +1,5 @@
 header{
-    background-color: orange;
+    background-color: #ff6900;
     padding: 1% 0;
     position: fixed;
     top: 0;
@@ -53,9 +53,10 @@ ul > li{
 
 .favorite{
     background-color: white;
-    padding: 5%;
+    padding: 2% 4%;
     right: 0;
-    top: 10%;
+    top: 2%;
+    font-size: 1.5rem;
 }
 
 .tagRed{
