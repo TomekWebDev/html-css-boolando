@@ -2,16 +2,15 @@ header{
     background-color: #ff6900;
     padding: 1% 0;
     position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    width: 100%;
     z-index: 1;
+    color: white;
 }
 
 ul{
     list-style: none;
     display: flex;
-    color: white;
+
 }
 
 ul > li{
@@ -30,6 +29,14 @@ ul > li{
 
 .headerLogo > img{
     width: 60%;
+}
+
+.headerMenu >li:hover{
+    text-decoration: underline;
+}
+
+.headerIcons > li:hover{
+    color: black;
 }
 
 .mainContainer{
@@ -96,4 +103,23 @@ ul > li{
 
 .retailPrice{
     text-decoration:line-through;
+}
+
+.favorite:hover{
+    color: red;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 2% 0;
+}
+
+footer li{
+    margin: 0 5% 0 0;
+}
+
+footer li:hover{
+    text-decoration: underline;
+    color: orange;
 }
